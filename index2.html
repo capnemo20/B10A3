@@ -32,6 +32,9 @@
               "supervision-bg": "#A4DAC3",
               "budget-bg": "#77AAEA",
             },
+            backgroundImage: {
+              bgImg: "url('./assets/bg.jpg')",
+            },
           },
         },
       };
@@ -304,8 +307,10 @@
         </div>
       </section>
       <!-- how we work section ends-->
-       <!-- let's discuss section -->
-       <section class="mt-12 mb-12 flex flex-col justify-center items-center text-center">
+      <!-- let's discuss section -->
+      <section
+        class="bg-bgImg pb-6 mt-12 mb-12 flex flex-row  justify-center items-center text-center"
+      >
         <div>
           <div>
             <button
@@ -320,45 +325,45 @@
               weathered wood, sleek metal accents.
             </p>
           </div>
-          <div class="join flex flex-row sm:flex-col mt-4">
+          <div class="join flex flex-col sm:grid sm:grid-cols-2 mt-4">
             <input
-              class="input input-bordered join-item mt-3"
+              class="input input-bordered join-item mb-4 mr-2"
               placeholder="First Name*"
             />
             <input
-              class="input input-bordered join-item"
+              class="input input-bordered join-item mb-4  mr-2"
               placeholder="Last Name*"
             />
             <input
-              class="input input-bordered join-item"
+              class="input input-bordered join-item mb-4  mr-2"
               placeholder="Phone Number*"
             />
             <input
-              class="input input-bordered join-item"
+              class="input input-bordered join-item mb-4 "
               placeholder="Email*"
             />
             <input
-              class="input input-bordered join-item"
+              class="input input-bordered join-item h-[100px] sm:h-[200px] sm:w-[800px]"
               placeholder="Write Your Message*"
             />
-            <div>
-              <button
-                class="join-item btn bg-bike-primary text-black bg-bg-color-1 text-lg mt-5 rounded-full sm:w-[700px]"
-              >
-                Send Mail
-                <img
-                  class="bg rounded-full"
-                  src="./assets/arrow-right-up-line.png"
-                  alt=""
-                />
-              </button>
-            </div>
+          </div>
+          <div>
+            <button
+              class="join-item btn bg-bike-primary text-black bg-bg-color-1 text-lg mt-5 rounded-full sm:w-[700px]"
+            >
+              Send Mail
+              <img
+                class="bg rounded-full"
+                src="./assets/arrow-right-up-line.png"
+                alt=""
+              />
+            </button>
           </div>
         </div>
         <div></div>
         <div></div>
       </section>
-       <!-- let's discuss section ends-->
+      <!-- let's discuss section ends-->
     </main>
 
     <footer></footer>
