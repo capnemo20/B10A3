@@ -31,6 +31,7 @@
               "design-bg": "#EFDA6E",
               "supervision-bg": "#A4DAC3",
               "budget-bg": "#77AAEA",
+              "bg-color-black": "#1C1C1C",
             },
             backgroundImage: {
               bgImg: "url('./assets/bg.jpg')",
@@ -309,7 +310,7 @@
       <!-- how we work section ends-->
       <!-- let's discuss section -->
       <section
-        class="bg-bgImg pb-6 mt-12 mb-12 flex flex-row  justify-center items-center text-center"
+        class="bg-bgImg pb-6 mt-12 mb-12 flex flex-row justify-center items-center text-center"
       >
         <div>
           <div>
@@ -331,15 +332,15 @@
               placeholder="First Name*"
             />
             <input
-              class="input input-bordered join-item mb-4  mr-2"
+              class="input input-bordered join-item mb-4 mr-2"
               placeholder="Last Name*"
             />
             <input
-              class="input input-bordered join-item mb-4  mr-2"
+              class="input input-bordered join-item mb-4 mr-2"
               placeholder="Phone Number*"
             />
             <input
-              class="input input-bordered join-item mb-4 "
+              class="input input-bordered join-item mb-4"
               placeholder="Email*"
             />
             <input
@@ -366,6 +367,28 @@
       <!-- let's discuss section ends-->
     </main>
 
-    <footer></footer>
+    <footer class="bg-bg-color-black">
+      <footer class="footer footer-center text-base-content rounded p-10">
+        <nav class="grid grid-flow-col gap-4 text-white">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav></nav>
+        <aside>
+          <a
+            class="btn bg-bike-primary text-black text-lg bg-bg-color-1 invisible sm:visible"
+          >
+            Book Consultant
+            <img
+              class="bg rounded-full"
+              src="./assets/arrow-right-up-line.png"
+              alt=""
+          /></a>
+        </aside>
+      </footer>
+    </footer>
   </body>
 </html>
